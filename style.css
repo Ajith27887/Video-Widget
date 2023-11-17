@@ -7,7 +7,7 @@
 body {
     font-family: "open sans", sans-serif;
     color: white;
-    background-color: black;
+    background-color: rgb(8, 2, 20);
     padding: 20px;
     overflow-x: hidden;
 }
