@@ -1,0 +1,178 @@
+{
+  "type": "Video Widget",
+  "data": {
+    "tittle": "Watch Now",
+    "WatchNow": [
+      {
+        "id": 1,
+        "subtitle": "Loream 1",
+        "image": "/Images/vertical/pexels-dominika-roseclay-1166869.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "1h 24m",
+        "releasedate": 2023,
+        "languages": 6,
+        "type": "Adventure",
+        "button": "Watch Now"
+      },
+      {
+        "id": 2,
+        "subtitle": "Loream 2",
+        "image": "/Images/vertical/pexels-javon-swaby-1697912.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "1h 24m",
+        "releasedate": 2020,
+        "languages": 3,
+        "type": "Action",
+        "button": "Watch Now"
+      },
+      {
+        "id": 3,
+        "subtitle": "Loream 3",
+        "image": "/Images/vertical/pexels-leon-macapagal-2346001.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "1h 24m",
+        "releasedate": 2020,
+        "languages": 3,
+        "type": "Action",
+        "button": "Watch Now"
+      },
+      {
+        "id": 4,
+        "subtitle": "Loream 4",
+        "image": "/Images/vertical/pexels-roberto-nickson-3131971.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "2h 24m",
+        "releasedate": 2010,
+        "languages": 8,
+        "type": "Action",
+        "button": "Watch Now"
+      },
+      {
+        "id": 5,
+        "subtitle": "Loream 5",
+        "image": "/Images/vertical/pexels-nataliya-vaitkevich-5122188.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "2h 24m",
+        "releasedate": 2014,
+        "languages": 8,
+        "type": "Action",
+        "button": "Watch Now"
+      },
+      {
+        "id": 6,
+        "subtitle": "Loream 6",
+        "image": "/Images/vertical/pexels-vlada-karpovich-4050413.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "2h 24m",
+        "releasedate": 2014,
+        "languages": 8,
+        "type": "Action",
+        "button": "Watch Now"
+      }
+    ],
+    "titletwo": "Trending",
+    "Trending": [
+      {
+        "id": 1,
+        "subtitle": "Loream 1",
+        "image": "/Images/pexels-abet-llacer-4501465.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "1h 24m",
+        "releasedate": 2023,
+        "languages": 6,
+        "type": "Adventure",
+        "button": "Watch Now"
+      },
+      {
+        "id": 2,
+        "subtitle": "Loream 2",
+        "image": "/Images/pexels-khoa-võ-4024213.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "1h 24m",
+        "releasedate": 2020,
+        "languages": 3,
+        "type": "Action",
+        "button": "Watch Now"
+      },
+      {
+        "id": 3,
+        "subtitle": "Loream 3",
+        "image": "/Images/pexels-gelatin-6357186.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "1h 24m",
+        "releasedate": 2020,
+        "languages": 3,
+        "type": "Action",
+        "button": "Watch Now"
+      },
+      {
+        "id": 4,
+        "subtitle": "Loream 4",
+        "image": "/Images/pexels-brett-sayles-4402830.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "2h 24m",
+        "releasedate": 2010,
+        "languages": 8,
+        "type": "Action",
+        "button": "Watch Now"
+      },
+      {
+        "id": 5,
+        "subtitle": "Loream 5",
+        "image": "/Images/pexels-brett-sayles-4864250.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "2h 24m",
+        "releasedate": 2014,
+        "languages": 8,
+        "type": "Action",
+        "button": "Watch Now"
+      },
+      {
+        "id": 6,
+        "subtitle": "Loream 6",
+        "image": "/Images/pexels-simon-berger-998554.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "2h 24m",
+        "releasedate": 2014,
+        "languages": 8,
+        "type": "Action",
+        "button": "Watch Now"
+      },
+      {
+        "id": 7,
+        "subtitle": "Loream 7",
+        "image": "/Images/pexels-alex-andrews-1983037.jpg",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "movietype": "U/A +16",
+        "timeduration": "2h 24m",
+        "releasedate": 2014,
+        "languages": 8,
+        "type": "Action",
+        "button": "Watch Now"
+      }
+    ]
+  },
+  "meta": {
+    "tittle": "Video Widget",
+    "show": {
+      "canShowButton": true,
+      "canShowPlus": true
+    },
+    "remove": {
+      "canRemoveButton": false,
+      "canRemovePlus": false
+    }
+  }
+}
