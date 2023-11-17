@@ -39,6 +39,8 @@ h4 {
     opacity: 0;
     right: 0px;
     overflow-x: hidden;
+    box-sizing: border-box;
+    width: -moz-fit-content;
     width: fit-content;
     overflow: hidden;
     display: block;
