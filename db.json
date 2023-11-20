@@ -12,8 +12,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2023,
         "languages": 6,
-        "type": "Adventure",
-        "button": "Watch Now"
+        "type": "Adventure"
       },
       {
         "id": 2,
@@ -24,8 +23,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2020,
         "languages": 3,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       },
       {
         "id": 3,
@@ -36,8 +34,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2020,
         "languages": 3,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       },
       {
         "id": 4,
@@ -48,8 +45,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2010,
         "languages": 8,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       },
       {
         "id": 5,
@@ -60,8 +56,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       },
       {
         "id": 6,
@@ -72,8 +67,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       }
     ],
     "titletwo": "Trending",
@@ -87,8 +81,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2023,
         "languages": 6,
-        "type": "Adventure",
-        "button": "Watch Now"
+        "type": "Adventure"
       },
       {
         "id": 2,
@@ -99,8 +92,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2020,
         "languages": 3,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       },
       {
         "id": 3,
@@ -111,8 +103,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2020,
         "languages": 3,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       },
       {
         "id": 4,
@@ -123,8 +114,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2010,
         "languages": 8,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       },
       {
         "id": 5,
@@ -135,8 +125,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       },
       {
         "id": 6,
@@ -147,8 +136,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       },
       {
         "id": 7,
@@ -159,20 +147,36 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action",
-        "button": "Watch Now"
+        "type": "Action"
       }
     ]
   },
   "meta": {
-    "tittle": "Video Widget",
-    "show": {
-      "canShowButton": true,
-      "canShowPlus": true
-    },
-    "remove": {
-      "canRemoveButton": false,
-      "canRemovePlus": false
-    }
+    "tittle": [
+      {
+        "buttonsVisible": [true, false]
+      },
+      {
+        "plusVisible": [true, false]
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Watch Now",
+        "link": "#"
+      },
+      {
+        "label": "Watch later",
+        "link": "#"
+      }
+    ],
+    "symbols": [
+      {
+        "symbol": "+"
+      },
+      {
+        "symbol": "-"
+      }
+    ]
   }
 }
