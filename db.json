@@ -2,7 +2,7 @@
   "type": "Video Widget",
   "data": {
     "tittle": "Watch Now",
-    "WatchNow": [
+    "Cardone": [
       {
         "id": 1,
         "subtitle": "Loream 1",
@@ -12,7 +12,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2023,
         "languages": 6,
-        "type": "Adventure"
+        "moviegenres": "Adventure"
       },
       {
         "id": 2,
@@ -23,7 +23,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2020,
         "languages": 3,
-        "type": "Action"
+        "moviegenres": "Action"
       },
       {
         "id": 3,
@@ -34,7 +34,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2020,
         "languages": 3,
-        "type": "Action"
+        "moviegenres": "Action"
       },
       {
         "id": 4,
@@ -45,7 +45,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2010,
         "languages": 8,
-        "type": "Action"
+        "moviegenres": "Action"
       },
       {
         "id": 5,
@@ -56,7 +56,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action"
+        "moviegenres": "Action"
       },
       {
         "id": 6,
@@ -67,11 +67,11 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action"
+        "moviegenres": "Action"
       }
     ],
     "titletwo": "Trending",
-    "Trending": [
+    "Cardtwo": [
       {
         "id": 1,
         "subtitle": "Loream 1",
@@ -81,7 +81,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2023,
         "languages": 6,
-        "type": "Adventure"
+        "moviegenres": "Adventure"
       },
       {
         "id": 2,
@@ -92,7 +92,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2020,
         "languages": 3,
-        "type": "Action"
+        "moviegenres": "Action"
       },
       {
         "id": 3,
@@ -103,7 +103,7 @@
         "timeduration": "1h 24m",
         "releasedate": 2020,
         "languages": 3,
-        "type": "Action"
+        "moviegenres": "Action"
       },
       {
         "id": 4,
@@ -114,7 +114,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2010,
         "languages": 8,
-        "type": "Action"
+        "moviegenres": "Action"
       },
       {
         "id": 5,
@@ -125,7 +125,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action"
+        "moviegenres": "Action"
       },
       {
         "id": 6,
@@ -136,7 +136,7 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action"
+        "moviegenres": "Action"
       },
       {
         "id": 7,
@@ -147,11 +147,30 @@
         "timeduration": "2h 24m",
         "releasedate": 2014,
         "languages": 8,
-        "type": "Action"
+        "moviegenres": "Action"
       }
     ]
   },
   "meta": {
+    "carddeatils": {
+      "canshow": false,
+      "choices": {
+        "subtitle": [true, false],
+
+        "description": [true, false],
+
+        "movietype": [true, false],
+
+        "timeduration": [true, false],
+
+        "releasedate": [true, false],
+
+        "languages": [true, false],
+
+        "moviegenres": [true, false]
+      }
+    },
+
     "tittle": [
       {
         "buttonsVisible": [true, false]
@@ -160,16 +179,7 @@
         "plusVisible": [true, false]
       }
     ],
-    "buttons": [
-      {
-        "label": "Watch Now",
-        "link": "#"
-      },
-      {
-        "label": "Watch later",
-        "link": "#"
-      }
-    ],
+
     "symbols": [
       {
         "symbol": "+"
