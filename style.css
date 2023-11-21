@@ -34,6 +34,7 @@ h4 {
 
 .image-container {
   position: relative;
+  /* cursor: pointer; */
   display: inline-block;
   margin: 10px;
 }
@@ -43,9 +44,14 @@ h4 {
   display: block;
 }
 
+img {
+  cursor: pointer;
+}
+
 .watch_container {
   position: relative;
   display: inline-block;
+  /* cursor: pointer; */
   margin: 10px;
 }
 
